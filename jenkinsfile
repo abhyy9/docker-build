@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_CREDENTIALS = credentials('dockerhub-creds123')
-        IMAGE_NAME = "bhuvanraj123/jenkins-job"
+        DOCKERHUB_CREDENTIALS = credentials('dockerhub-creds')
+        IMAGE_NAME = "abhyy9/docker-build"
         IMAGE_TAG = "latest"
     }
 
