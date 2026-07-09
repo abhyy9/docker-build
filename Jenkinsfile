@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_CREDENTIALS = credentials('dockerhub-creds')
+        DOCKERHUB_CREDENTIALS = credentials('dockerhub-cred')
         IMAGE_NAME = "abhyy9/docker-build"
         IMAGE_TAG = "latest"
     }
